@@ -8,6 +8,7 @@ import CardBeard from '../components/CardBeard'
 import ComingSoon from "../assets/images/comingsoon.png"
 import RCLogo from "../assets/images/brick_logo.jpg";
 
+
 export default class CardsLayout extends Component {
     state = {
         img: ComingSoon
@@ -35,6 +36,7 @@ export default class CardsLayout extends Component {
     <Card.Title>Beard</Card.Title>
     <Card.Text>
       Check Out Our Beard Products
+      
     </Card.Text>
    
   </Card.Body>
